@@ -2,8 +2,8 @@
 
 ### Микросервисный проект включает в себя:
 
-1. ProductMicroservice - Producer
-2. EmailNotificationMicroservice - Consumer
+1. ProductMicroservice - Kafka Producer
+2. EmailNotificationMicroservice - Kafka Consumer
 3. mockservice - обработка ответов со статусом 200 или 500
 4. mongodb - база данных.
 5. core - библиотека, содержит используемый несколькими микросервисами класс событий ProductCreatedEvent.
